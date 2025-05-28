@@ -44,7 +44,7 @@ public class TestGreeter {
 
   @Test
   public void intentionalFailureTest() {
-    assertThat(true);
+    assertThat(true,is(true));
   }
 
 }
